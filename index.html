@@ -6,6 +6,7 @@
     <title>Ervan Wirasableng</title>
     <link rel="stylesheet" href="assets/css/skeleton.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
 </head>
 <div class="fixed bar" style="height: auto; padding: 36px 0;">
     <div class="row navbar">
@@ -129,7 +130,39 @@
                 <span class="customer title">CEO of RodoGilo.com</span>
             </div>
         </div>
+        <div class="six columns">
+            <div class="avatar">
+                <img src="no-cat.jpg" alt="avatar">
+            </div>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias aspernatur
+                    cumque dicta distinctio explicabo harum, molestias nisi numquam obcaecati omnis optio perferendis
+                    provident quaerat, reiciendis temporibus tenetur vero? Cupiditate?
+                </p>
+                <span class="customer name">Ninja Hatori</span>
+                <span class="customer title">CEO of RodoGilo.com</span>
+            </div>
+        </div>
+        <div class="six columns">
+            <div class="avatar">
+                <img src="no-cat.jpg" alt="avatar">
+            </div>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam eum itaque nemo omnis praesentium
+                    sapiente
+                    totam? Cupiditate error ex in nam necessitatibus. Aperiam debitis et exercitationem id molestias
+                    tempore
+                    totam!
+                </p>
+                <span class="customer name">Ninja Hatori</span>
+                <span class="customer title">CEO of RodoGilo.com</span>
+            </div>
+        </div>
     </div>
+
+
 
     <div class="row contact me">
         <div class="eight columns">
@@ -140,5 +173,19 @@
         </div>
     </div>
 </div>
+<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.testimonials').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            dots: false,
+            arrows: false
+        });
+    });
+</script>
 </body>
 </html>
