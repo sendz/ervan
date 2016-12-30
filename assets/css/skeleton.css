@@ -652,8 +652,7 @@ there.
 }
 
 ul.socials {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
     list-style-type: none;
 }
 
